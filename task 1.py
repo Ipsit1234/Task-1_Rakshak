@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-image = cv2.imread('minions.jpg')   #provide the input path here
+image = cv2.imread('')   #provide the input path here
 
 hsv = cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 image1 = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
